@@ -44,9 +44,11 @@ Run the script to start processing:
 python main.py
 Note: Adjust the PIXELS_PER_METER value in the script according to your camera calibration for accurate speed estimation.
 
+
 **🧪 Sample Output (CSV)**
 date	time	track_id	class_name	speed_kmh	numberplate
 2025-04-07	13:45:22	7	car	42.55	MH12AB1234
+
 
 **🧠 Future Work**
 Improve speed estimation using multi-frame smoothing or Kalman filter
